@@ -1,0 +1,328 @@
+.body {
+  background-color: #d6eff9;
+}
+
+.header {
+  color: white;
+  width: 100%;
+  height: 250px;
+  border:5px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-color:black;
+  text-align:center;
+  background-color: #3BB9FF;
+  text-shadow: 3px 2px darkgrey;
+  font-size: 300%;
+  box-shadow: 10px 10px 5px #2c5263;
+  background-image: url(galaxy.jpg);
+  background-size: cover;
+}
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+  border: 1px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 10px 10px 5px #2c5263;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border: 2px;
+  border-radius: 20px;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+  border: 1px;
+  border-radius: 20px;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: 1px;
+  border-radius: 20px;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+}
+
+/* Add a neon blue background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color:#3BB9FF ;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #3BB9FF;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border: 1px;
+  border-radius: 20px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+
+}
+.homepage {
+
+  width: 70%;
+  height: 400px;
+  border: 1px;
+  padding: 10px;
+  margin:auto;
+  margin-bottom: 10%;
+  margin-top: 10%;
+  text-align: center;
+  box-shadow: 10px 10px 5px #2c5263;
+  background-color: #b3c5e2;
+  background: linear-gradient(left top,#3BB9FF,#a7d6ef);
+  background: -webkit-linear-gradient(left top,#3BB9FF,#a7d6ef);
+  background: -o-linear-gradient(left top,#3BB9FF,#a7d6ef);
+  background: -moz-linear-gradient(left top,#3BB9FF,#a7d6ef);
+}
+.mij{
+
+  width: 70%;
+  height: 400px;
+  border: 1px;
+  padding: 10px;
+  margin:auto;
+  margin-bottom: 10%;
+  margin-top: 10%;
+  box-shadow: 10px 10px 5px #2c5263;
+  text-align: center;
+  background-color: #b3c5e2;
+  background: linear-gradient(left top,#3BB9FF,#a7d6ef);
+  background: -webkit-linear-gradient(left top,#3BB9FF,#a7d6ef);
+  background: -o-linear-gradient(left top,#3BB9FF,#a7d6ef);
+  background: -moz-linear-gradient(left top,#3BB9FF,#a7d6ef);
+
+}
+.hobby{
+  width: 70%;
+  height: 400px;
+  border: 1px;
+  padding: 10px;
+  margin:auto;
+  margin-bottom: 10%;
+  margin-top: 10%;
+  box-shadow: 10px 10px 5px #2c5263;
+  text-align: center;
+  background-color: #b3c5e2;
+  background: linear-gradient(left top,#3BB9FF,#a7d6ef);
+  background: -webkit-linear-gradient(left top,#3BB9FF,#a7d6ef);
+  background: -o-linear-gradient(left top,#3BB9FF,#a7d6ef);
+  background: -moz-linear-gradient(left top,#3BB9FF,#a7d6ef);
+
+}
+
+.ambities{
+
+  width: 70%;
+  height: 400px;
+  border: 1px;
+  padding: 10px;
+  margin:auto;
+  margin-bottom: 10%;
+  margin-top: 10%;
+  text-align: center;
+  box-shadow: 10px 10px 5px #2c5263;
+  background-color: #b3c5e2;
+  background: linear-gradient(left top,#3BB9FF,#a7d6ef);
+  background: -webkit-linear-gradient(left top,#3BB9FF,#a7d6ef);
+  background: -o-linear-gradient(left top,#3BB9FF,#a7d6ef);
+  background: -moz-linear-gradient(left top,#3BB9FF,#a7d6ef);
+
+}
+
+.code{
+  width: 70%;
+  height: auto;
+  border: 1px;
+  padding: 10px;
+  margin:auto;
+  margin-bottom: 10%;
+  margin-top: 10%;
+  text-align: center;
+  box-shadow: 10px 10px 5px #2c5263;
+  background-color: #b3c5e2;
+  background: linear-gradient(left top,#3BB9FF,#a7d6ef);
+  background: -webkit-linear-gradient(left top,#3BB9FF,#a7d6ef);
+  background: -o-linear-gradient(left top,#3BB9FF,#a7d6ef);
+  background: -moz-linear-gradient(left top,#3BB9FF,#a7d6ef);
+
+}
+
+
+
+.cv{
+
+  width: 70%;
+  height: auto;
+  border: 1px;
+  padding: 10px;
+  margin:auto;
+  margin-bottom: 10%;
+  margin-top: 10%;
+  box-shadow: 10px 10px 5px #2c5263;
+  background-color: #b3c5e2;
+  background: linear-gradient(left top,#3BB9FF,#a7d6ef);
+  background: -webkit-linear-gradient(left top,#3BB9FF,#a7d6ef);
+  background: -o-linear-gradient(left top,#3BB9FF,#a7d6ef);
+  background: -moz-linear-gradient(left top,#3BB9FF,#a7d6ef);
+
+}
+.cvtop{
+text-align: center;
+width: 70%;
+height: auto;
+border: 1px solid l#42bcf4;
+padding: 10px;
+margin:auto;
+margin-top: 10%;
+background-color: #42bcf4;
+box-shadow: 10px 10px 5px #2c5263;
+
+}
+
+.cvtop2{
+text-align: center;
+width: 70%;
+height: auto;
+border: 1px solid l#42bcf4;
+padding: 10px;
+margin:auto;
+margin-top: 10%;
+background-color: #42bcf4;
+box-shadow: 10px 10px 5px #2c5263;
+
+}
+
+.cvtop3{
+text-align: center;
+width: 70%;
+height: auto;
+border: 1px solid l#42bcf4;
+padding: 10px;
+margin:auto;
+margin-top: 10%;
+background-color: #42bcf4;
+box-shadow: 10px 10px 5px #2c5263;
+
+}
+
+.cvtop4{
+text-align: center;
+width: 70%;
+height: auto;
+border: 1px solid l#42bcf4;
+padding: 10px;
+margin:auto;
+margin-top: 10%;
+background-color: #42bcf4;
+box-shadow: 10px 10px 5px #2c5263;
+
+}
+
+.gallery{
+
+  width: 70%;
+  height: auto;
+  border: 1px;
+  padding: 10px;
+  margin:auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  text-align: center;
+  box-shadow: 10px 10px 5px #2c5263;
+  background-color: #b3c5e2;
+  background: linear-gradient(left top,#3BB9FF,#a7d6ef);
+  background: -webkit-linear-gradient(left top,#3BB9FF,#a7d6ef);
+  background: -o-linear-gradient(left top,#3BB9FF,#a7d6ef);
+  background: -moz-linear-gradient(left top,#3BB9FF,#a7d6ef);
+
+}
+
+.blog{
+
+  width: 70%;
+  height: auto;
+  border: 1px;
+  padding: 10px;
+  margin:auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  text-align: center;
+  background-color: #b3c5e2;
+  box-shadow: 10px 10px 5px #2c5263;
+  background: linear-gradient(left top,#3BB9FF,#a7d6ef);
+  background: -webkit-linear-gradient(left top,#3BB9FF,#a7d6ef);
+  background: -o-linear-gradient(left top,#3BB9FF,#a7d6ef);
+  background: -moz-linear-gradient(left top,#3BB9FF,#a7d6ef);
+
+}
+.vlog{
+
+  width: 70%;
+  height: auto;
+  border: 1px;
+  padding: 10px;
+  margin:auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  text-align: center;
+  box-shadow: 10px 10px 5px #2c5263;
+  background-color: #b3c5e2;
+  background: linear-gradient(left top,#3BB9FF,#a7d6ef);
+  background: -webkit-linear-gradient(left top,#3BB9FF,#a7d6ef);
+  background: -o-linear-gradient(left top,#3BB9FF,#a7d6ef);
+  background: -moz-linear-gradient(left top,#3BB9FF,#a7d6ef);
+
+
+}
+.footer{
+background-color: #3BB9FF;
+width: 99%;
+height: 50px;
+border: 1px;
+border-radius: 20px;
+position: relative;
+bottom: 5px;
+text-align: center;
+box-shadow: 10px 10px 5px #2c5263;
+
+}
