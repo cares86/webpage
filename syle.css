@@ -1,5 +1,5 @@
 .body {
-  background-color: #d6eff9;
+  background-color: #10193d;
 }
 
 .header {
@@ -7,16 +7,17 @@
   width: 100%;
   height: 250px;
   border:5px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
   border-color:black;
   text-align:center;
   background-color: #3BB9FF;
   text-shadow: 3px 2px darkgrey;
   font-size: 300%;
-  box-shadow: 10px 10px 5px #2c5263;
+  box-shadow: 10px 10px 5px #070d26;
   background-image: url(galaxy.jpg);
   background-size: cover;
+  padding-top: 6%;
+
+
 }
 /* Navbar container */
 .navbar {
@@ -26,7 +27,7 @@
   border: 1px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  box-shadow: 10px 10px 5px #2c5263;
+  box-shadow: 10px 10px 5px #070d26;
 }
 
 /* Links inside the navbar */
@@ -39,6 +40,7 @@
   text-decoration: none;
   border: 2px;
   border-radius: 20px;
+
 }
 
 /* The dropdown container */
@@ -47,6 +49,7 @@
   overflow: hidden;
   border: 1px;
   border-radius: 20px;
+
 }
 
 /* Dropdown button */
@@ -58,6 +61,7 @@
   color: white;
   padding: 14px 16px;
   background-color: inherit;
+
 }
 
 /* Add a neon blue background color to navbar links on hover */
@@ -71,7 +75,7 @@
   position: absolute;
   background-color: #3BB9FF;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 10px 10px 5px #070d26;
   z-index: 1;
   border: 1px;
   border-radius: 20px;
@@ -107,7 +111,7 @@
   margin-bottom: 10%;
   margin-top: 10%;
   text-align: center;
-  box-shadow: 10px 10px 5px #2c5263;
+  box-shadow: 10px 10px 5px #070d26;
   background-color: #b3c5e2;
   background: linear-gradient(left top,#3BB9FF,#a7d6ef);
   background: -webkit-linear-gradient(left top,#3BB9FF,#a7d6ef);
@@ -123,7 +127,7 @@
   margin:auto;
   margin-bottom: 10%;
   margin-top: 10%;
-  box-shadow: 10px 10px 5px #2c5263;
+  box-shadow: 10px 10px 5px #070d26;
   text-align: center;
   background-color: #b3c5e2;
   background: linear-gradient(left top,#3BB9FF,#a7d6ef);
@@ -140,7 +144,7 @@
   margin:auto;
   margin-bottom: 10%;
   margin-top: 10%;
-  box-shadow: 10px 10px 5px #2c5263;
+  box-shadow: 10px 10px 5px #070d26;
   text-align: center;
   background-color: #b3c5e2;
   background: linear-gradient(left top,#3BB9FF,#a7d6ef);
@@ -160,7 +164,7 @@
   margin-bottom: 10%;
   margin-top: 10%;
   text-align: center;
-  box-shadow: 10px 10px 5px #2c5263;
+  box-shadow: 10px 10px 5px #070d26;
   background-color: #b3c5e2;
   background: linear-gradient(left top,#3BB9FF,#a7d6ef);
   background: -webkit-linear-gradient(left top,#3BB9FF,#a7d6ef);
@@ -178,7 +182,7 @@
   margin-bottom: 10%;
   margin-top: 10%;
   text-align: center;
-  box-shadow: 10px 10px 5px #2c5263;
+  box-shadow: 10px 10px 5px #070d26;
   background-color: #b3c5e2;
   background: linear-gradient(left top,#3BB9FF,#a7d6ef);
   background: -webkit-linear-gradient(left top,#3BB9FF,#a7d6ef);
@@ -198,12 +202,12 @@
   margin:auto;
   margin-bottom: 10%;
   margin-top: 10%;
-  box-shadow: 10px 10px 5px #2c5263;
+  box-shadow: 10px 10px 5px #070d26;
   background-color: #b3c5e2;
-  background: linear-gradient(left top,#3BB9FF,#a7d6ef);
-  background: -webkit-linear-gradient(left top,#3BB9FF,#a7d6ef);
-  background: -o-linear-gradient(left top,#3BB9FF,#a7d6ef);
-  background: -moz-linear-gradient(left top,#3BB9FF,#a7d6ef);
+  background: linear-gradient(left top,#1325b2,#a7d6ef);
+  background: -webkit-linear-gradient(left top,#1325b2,#a7d6ef);
+  background: -o-linear-gradient(left top,#1325b2,#a7d6ef);
+  background: -moz-linear-gradient(left top,#1325b2,#a7d6ef);
 
 }
 .cvtop{
@@ -214,8 +218,9 @@ border: 1px solid l#42bcf4;
 padding: 10px;
 margin:auto;
 margin-top: 10%;
-background-color: #42bcf4;
+background-color: #0f89c1;
 box-shadow: 10px 10px 5px #2c5263;
+
 
 }
 
@@ -227,7 +232,7 @@ border: 1px solid l#42bcf4;
 padding: 10px;
 margin:auto;
 margin-top: 10%;
-background-color: #42bcf4;
+background-color:#0f89c1;
 box-shadow: 10px 10px 5px #2c5263;
 
 }
@@ -240,7 +245,7 @@ border: 1px solid l#42bcf4;
 padding: 10px;
 margin:auto;
 margin-top: 10%;
-background-color: #42bcf4;
+background-color: #0f89c1;
 box-shadow: 10px 10px 5px #2c5263;
 
 }
@@ -253,7 +258,7 @@ border: 1px solid l#42bcf4;
 padding: 10px;
 margin:auto;
 margin-top: 10%;
-background-color: #42bcf4;
+background-color: #0f89c1;
 box-shadow: 10px 10px 5px #2c5263;
 
 }
@@ -268,7 +273,7 @@ box-shadow: 10px 10px 5px #2c5263;
   margin-top: 10%;
   margin-bottom: 10%;
   text-align: center;
-  box-shadow: 10px 10px 5px #2c5263;
+  box-shadow: 10px 10px 5px #070d26;
   background-color: #b3c5e2;
   background: linear-gradient(left top,#3BB9FF,#a7d6ef);
   background: -webkit-linear-gradient(left top,#3BB9FF,#a7d6ef);
@@ -288,7 +293,7 @@ box-shadow: 10px 10px 5px #2c5263;
   margin-bottom: 10%;
   text-align: center;
   background-color: #b3c5e2;
-  box-shadow: 10px 10px 5px #2c5263;
+  box-shadow: 10px 10px 5px ##070d26;
   background: linear-gradient(left top,#3BB9FF,#a7d6ef);
   background: -webkit-linear-gradient(left top,#3BB9FF,#a7d6ef);
   background: -o-linear-gradient(left top,#3BB9FF,#a7d6ef);
@@ -305,7 +310,7 @@ box-shadow: 10px 10px 5px #2c5263;
   margin-top: 10%;
   margin-bottom: 10%;
   text-align: center;
-  box-shadow: 10px 10px 5px #2c5263;
+  box-shadow: 10px 10px 5px #070d26;
   background-color: #b3c5e2;
   background: linear-gradient(left top,#3BB9FF,#a7d6ef);
   background: -webkit-linear-gradient(left top,#3BB9FF,#a7d6ef);
@@ -315,14 +320,18 @@ box-shadow: 10px 10px 5px #2c5263;
 
 }
 .footer{
+color: white;
 background-color: #3BB9FF;
 width: 99%;
-height: 50px;
+height: 75px;
 border: 1px;
 border-radius: 20px;
 position: relative;
 bottom: 5px;
 text-align: center;
-box-shadow: 10px 10px 5px #2c5263;
+box-shadow: 10px 10px 5px #070d26;
+background-image: url(galaxy.jpg);
+background-size: cover;
+
 
 }
