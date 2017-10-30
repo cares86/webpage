@@ -313,7 +313,6 @@ padding-top: 1%;
 }
 .fa {
   padding: 20px;
-  font-size: 2%;
   /*width: 30px;*/
   /*height: 30px;*/
   text-align: right;
@@ -344,4 +343,9 @@ padding-top: 1%;
 .fa-linkedin {
   background: #007bb5;
   color: white;
+}
+
+/*past de grote van de social media buttons aan*/
+.mediaButtons {
+  font-size: 30px;
 }
